@@ -1,15 +1,21 @@
 @media screen and (max-width: 768px) {
-  div {
-    display: block;
+  #parent {
+    display: flex;
+    flex-direction: column;
   }
+}
 
-  h2 {
-    font-size: 30px;
-  }
+#parent {
+  display: flex;
+  justify-content: space-around;
+}
 
-  p {
-    font-size: 25px;
-  }
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 25px;
 }
 
 h1,
@@ -76,7 +82,7 @@ a {
   color: rgb(255, 255, 255);
 }
 
-a:link {
+a:visited {
   color: rgb(193, 234, 251);
 }
 
